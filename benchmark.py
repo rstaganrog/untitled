@@ -3,7 +3,7 @@ def benchmark(func):
 
     def wrapper():
         start = time.time()
-
+#
         func()
         end = time.time()
         print('[*] Время выполнения: {} секунд.'.format(end - start))
